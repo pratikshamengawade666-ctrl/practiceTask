@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #d77979;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Sections */
+section {
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: auto;
+    background: rgb(229, 139, 139);
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Skills */
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills li {
+    background: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    list-style: none;
+}
+
+/* Projects */
+.project-card {
+    background: #efa2a2;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Contact */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    .skills ul {
+        flex-direction: column;
+    }
+}
